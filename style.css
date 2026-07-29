@@ -123,6 +123,21 @@ header{
     margin-top:15px;
 }
 
+.hero-image{
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float{
+    0% {
+    transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-22px); 
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 .btn-primary{
     text-decoration: none;
     background-color: var(--primary);
