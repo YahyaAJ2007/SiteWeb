@@ -202,11 +202,12 @@ header{
     height: 320px;
     overflow: hidden;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
 }
 .about-img:hover{
     transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .about-img img {
     object-fit: cover;
